@@ -8,6 +8,7 @@ from BeautifulSoup import BeautifulSoup
 LASTFM_API_KEY = 'your_api_key'
 LASTFM_SECRET = 'your_api_secret'
 
+
 def prepare(dates, limite):
     """
     Prepares data for the urlopen

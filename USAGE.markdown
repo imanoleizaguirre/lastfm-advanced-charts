@@ -36,3 +36,7 @@ dates = getDates_weeks(u'xalernita', 12)
 artist_graph = getArtistsGraph(u'Eels', 'xalernita', dates)
 
 rs = getCharts(artist_graph, dates)
+
+
+The result of this would be this [image](http://chart.apis.google.com/chart?chxt=x,y&chd=t:0.0,15.0,57.0,85.0,86.0,86.0,86.0,88.0,91.0,91.0,97.0,97.0,100.0&chg=2.0,10.0,1.0,2.0&chco=0077cc&chm=B,e6f2fa,0,0,0&chs=1000x300&cht=ls&chxl=1:|0|12|24|38|48|60|72|84|96|0:|Feb+11|Apr+11|May+11&chls=2.0,1.0,0.0
+)
