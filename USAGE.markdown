@@ -28,6 +28,9 @@ getDates_weeks(user, 12) for the data information instead of getDates().
 
 ## Example
 
+This example will generate a graph for the number of scroblings from
+the user _xalernita_ for the band _Eels_ for the last 3 months.
+
 dates = getDates_weeks(u'xalernita', 12)
 artist_graph = getArtistsGraph(u'Eels', 'xalernita', dates)
 rs = getCharts(artist_graph, dates)
