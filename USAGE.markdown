@@ -20,3 +20,14 @@ getCharts(artist_graph, dates): This method will get the chart image url
 You have to keep in mind that if your lastfm's account has a lot of
 scrobling during time (ie: a lot of weeks since you registered the
 account), the reading process may be quite slow.
+
+You may also want to query your scroblings in a certain range of time,
+for example, the last three months. In this case, you can use 
+getDates_weeks(user, 12) for the data information instead of getDates().
+
+
+## Example
+
+dates = getDates_weeks(u'xalernita', 12)
+artist_graph = getArtistsGraph(u'Eels', 'xalernita', dates)
+rs = getCharts(artist_graph, dates)
