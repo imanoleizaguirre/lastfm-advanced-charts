@@ -1,7 +1,8 @@
 # LastFM Advanced Charts
 
 LastFM Advanced Charts generates a customizable graph with the accumulated
-scrobblings of a given lastfm account using [Google Chart API](http://code.google.com/apis/chart/).
+scrobblings of a given lastfm account using [Google Chart API](http://code.google.com/apis/chart/)
+during your lastfm account's timeline.
 
 The main purpose of thus library is to play a little bit withlast.fm's API,
 and building up graphs and stats that are really helpful for me and I haven't 
@@ -19,6 +20,7 @@ This library has some requirements listed above:
 # Future Plans
 - Propper packaging
 - Propper documentation
+- Better examples
 - Tests
 - Use [lxml](http://lxml.de/) instead of BeautifulSoup
 - Support for more than one band stats per graph
